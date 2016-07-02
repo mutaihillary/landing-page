@@ -12,24 +12,31 @@ head{
 body{
     background-color: burlywood;
     border: 10px;
-    height: 50%;
-    background-image: url(/images/home.jpg);
-    background-size: cover;
+    background-image: url("../images/fas.jpg");
+    background-size: contain;
     height: 100vh;
-        
+
 }
-header { 
+header {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
-        
+
+}
+h1 {
+  font-family:
+  color:white;
+  font-size: 28px;
 }
 
 p {
     max-width: 600px;
     margin: 0 auto 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+    display: inline-flex;
 }
 
 a {

@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>
-        Dropzone
+        Fast Five
         </title>
+        <link href="https://fonts.googleapis.com/css?family=Hind+Madurai|Lato|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        
+
     <header>
 <!--        <img src="images/home.jpg" alt="homepageimage">-->
         <nav class="main-nav">
@@ -17,11 +18,37 @@
             <a href="">Contact Us</a>
             <a href=""> Store</a>
         </nav>
-       <h1>Fast Five 2016</h1> 
+       <h1>Fast Five 2016</h1>
         <h4>Release on 15 July 2016:Arena Plaza</h4>
      </header>
         <p>
             Fast Five (alternatively known as Fast & Furious 5 or Fast & Furious 5: Rio Heist is a 2016 American action film directed by Justin Lin and written by Chris Morgan. It is the fifth installment in The Fast and the Furious franchise. It was released first in Australia on April 20, 2016, and then in the United States on April 29, 2016
         </p>
+        <form action="#" method="post">
+                    <fieldset class="register">
+                    <label>
+                    NAME
+                    <input type="text" name="Name" placeholder="Full Name Required" required></label>
+                    <label>
+                    EMAIL ADDRESS
+                    <input type="email" name="Email Address" placeholder="@example.com" required>
+                    </label>
+                    <label>
+                    MOBILE NUMBER
+                    <input type="tel" name="Phone Number" placeholder="+2547000000" required>
+                    </label>
+                    <label>
+                    ORDER/BOOKING:
+                    <input type="radio" name="order" required>
+                    <input type="radio" name="radio" value="booked">Ticket<br>
+                    <input type="radio" name="radio" value="order">Book<br>
+                    </label>
+                    <label>
+                    COMMENTS
+                    <textarea name="comments"></textarea>
+                    </label>
+                    <input class="button" type="submit" value="book">
+                    </fieldset>
+                </form>
     </body>
 </html>
