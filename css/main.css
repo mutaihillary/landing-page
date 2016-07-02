@@ -10,22 +10,32 @@ head{
     display: block
 }
 body{
-    background-color: yellow;
-    border: 10px dashed red;
-    height: 100%
+    background-color: burlywood;
+    border: 10px;
+    height: 50%;
+    background-image: url(/images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+        
 }
-header {
-    background-image: url(images/home.jpg)
-        height: 100vh
-    background-size: cover; 
+header { 
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
+        
 }
+
 p {
     max-width: 600px;
     margin: 0 auto 20px;
 }
 
+a {
+    text-decoration: none
+}
+
+li {
+    border-style: none;
+}
